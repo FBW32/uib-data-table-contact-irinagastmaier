@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+caption {
+    padding: 30px;
+    font-size: 2rem;
+}
+
+table {
+    border: 1px solid rgba(0,0,0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    padding: 2.5em;
+}
+
+
+td {
+    text-align: start;
+    padding: 2em;
+}
+
+
+tbody tr:nth-of-type(odd) {
+    background: rgba(153, 173, 173, 0.5);
+    }
+.col-3 {
+    text-align: end;
+} 
+
